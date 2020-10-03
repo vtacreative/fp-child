@@ -28,12 +28,11 @@ add_theme_support( 'wc-product-gallery-slider' );
 
 
 /*	SET SOME CONSTANTS FOR HANDY REFERENCE */
-define('COMPANY_NAME', 						'That Ventura Brand'													);
-define('STREET_ADDRESS',					''															);
-define('CITY',										'Ventura'																			);
-define('STATE',										'CA'																					);
-define('URL',											'https://thatventurabrand.com'								);
-define('FLAG_DIR',	get_template_directory_uri() . '/images/country-flags-64/'	);
+define('COMPANY_NAME', 						''								);
+define('STREET_ADDRESS',					''								);
+define('CITY',										''								);
+define('STATE',										''								);
+define('URL',											''								);
 
 
 
