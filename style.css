@@ -1,0 +1,391 @@
+/*
+Theme Name: found-press Child
+Description: A starter WordPress theme using Foundation 5.2
+Author: CL75
+Author URI: http://github.com/CL75/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive, fluid, mobile, mobile-friendly
+Template:   found-press
+*/
+
+/* TVB STYLE SHEET */
+
+@import url("../found-press/style.css");
+
+
+	
+/* Force iOS, Android, etc. to create consistent links */
+a[href^=tel] { 
+	color: inherit; 
+	text-decoration: none; 
+}
+
+ul#menu-main-menu {
+	display:inline-block;
+	text-align:right;
+}
+
+a {
+	color:#000;
+}	
+
+a:hover {
+	color:#666;
+}
+	
+a#insta-dot {
+	display:block;
+	padding:35px 0 65px 0;
+}
+	
+h1.woocommerce-products-header__title {
+	color:#fff;
+}
+	
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+
+
+
+
+
+
+/*
+==========================================================================
+   Header & Footer
+   ========================================================================== */
+	/* height from top of page to beginning of content */
+	#tvb-header {
+		padding-bottom:100px;
+	}
+
+	/* spacing around header image */
+	img#header-image {
+		margin:14px 0 14px 0;
+	}
+
+	/* placement of cart & nav */
+	.nav-right,
+	.menu-primary-container {
+		text-align:right;
+	}
+
+	ul#menu-primary {
+		display:inline-block;
+	}
+
+
+/* fixed navigation on all devices */
+div#tvb-nav {
+	position:fixed;
+	width:100%;
+	z-index:1000;
+}
+
+/* color of nav bar */
+div#tvb-nav, ul.menu {
+	background:#fff;
+	opacity:.95;
+}
+
+/* appearance of nav menu links */
+ul.menu li a {
+	color:#000;
+	font-size:1em;
+}
+
+/* hover color of cart, nav links */
+ul.menu li a:hover {
+	color:#000;
+}
+
+button.button {
+	background:#F00;
+}
+
+
+
+/* ==========================================================================
+   WooCommerce
+   ========================================================================== */
+
+/* price */
+span.amount, span.subscription-details {
+	font-weight:bold;
+	color:#008000;
+	font-size:16px;
+}
+
+	
+	
+	
+	
+	
+/* WooCommerce 3.0 Gallery */
+ 
+.woocommerce-product-gallery {
+position: relative;
+margin-bottom: 3em
+}
+ 
+.woocommerce-product-gallery figure {
+margin: 0
+}
+ 
+.woocommerce-product-gallery .woocommerce-product-gallery__image:nth-child(n+2) {
+width: 25%;
+display: inline-block
+}
+ 
+.woocommerce-product-gallery .flex-control-thumbs li {
+list-style: none;
+float: left;
+cursor: pointer
+}
+ 
+.woocommerce-product-gallery .flex-control-thumbs img {
+opacity: .5
+}
+ 
+.woocommerce-product-gallery .flex-control-thumbs img.flex-active,.woocommerce-product-gallery .flex-control-thumbs img:hover {
+opacity: 1
+}
+ 
+.woocommerce-product-gallery img {
+display: block
+}
+ 
+.woocommerce-product-gallery--columns-3 .flex-control-thumbs li {
+width: 33.3333%
+}
+ 
+.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+width: 25%
+}
+ 
+.woocommerce-product-gallery--columns-5 .flex-control-thumbs li {
+width: 20%
+}
+ 
+.woocommerce-product-gallery__trigger {
+position: absolute;
+top: 1em;
+right: 1em;
+z-index: 99;
+}
+ 
+a.woocommerce-product-gallery__trigger {
+text-decoration: none;
+}
+ 
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+position: absolute;
+top: .875em;
+right: .875em;
+display: block;
+height: 2em;
+width: 2em;
+border-radius: 3px;
+z-index: 99;
+text-align: center;
+text-indent: -999px;
+overflow: hidden;
+}
+ 
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+background-color: #169fda;
+color: #ffffff;
+}
+ 
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+background-color: #1781ae;
+border-color: #1781ae;
+color: #ffffff;
+}
+ 
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:before {
+font: normal normal normal 1em/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+display: block;
+content: "\f00e";
+line-height: 2;
+text-indent: 0;
+}
+
+ul#store-nav {
+	text-align:center;
+}
+
+ul#store-nav li {
+	display:inline-block;
+}
+	
+table tbody, table tfoot, table thead {
+	border:none;
+}
+
+td.label {
+	background:white;
+}
+
+
+.product .posted_in { display:none; }
+
+.product .tagged_as { display:none; }
+
+.product .sku_wrapper { display:none; }
+
+div#tab-additional_information h2,
+section.related.products h2 {
+	font-size:14px;
+	text-transform:capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and (min-width:1920px) {
+
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+
+}
+
+
+
+
+
+@media screen and (width:1024px) and (orientation:landscape) {
+
+}
+
+
+
+
+@media screen and (width:768px) {
+
+}
+
+
+/* target tablet portrait and above */
+@media screen and (min-width:768px) {
+
+}
+
+
+
+	
+
+@media screen and (max-width: 767px) {
+	
+}
+
+
+
+
+
+/* Target all devices 600px wide or less */
+@media screen and (max-width: 600px)	{
+		
+		/* centers footer elements */
+		.footer-right, .footer-left {
+			text-align:center;
+		}
+		/* spacing around header image */
+		img#header-image {
+			margin:8px 0 8px 0;
+		}
+		
+}
+
+
+
+
+/* iPhone 5 landscape */
+@media screen and (width: 568px)	{
+	
+}
+
+
+
+
+/* all small views up to smartphone landscape */
+@media screen and (max-width: 480px)	{
+
+}
+
+
+
+
+/* Nexus portrait */
+@media screen and (width: 384px) {
+	
+}
+
+
+
+
+/* smartphone portrait */
+@media screen and (width: 320px)	{
+		
+}
+
+
+
+
+/* Android portrait */
+@media screen and (width: 240px) {
+	
+}
