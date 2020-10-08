@@ -56,7 +56,7 @@
 				
 	      <div class="small-4 columns">
 		
-					<a href="/" title="<?php echo bloginfo('description'); ?>"><img id="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tvb.svg" alt="That Ventura Brand"></a>
+					<a href="/" title="<?php echo bloginfo('description'); ?>"><img id="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tvb.svg" alt="<?php printf( get_bloginfo ( 'description' ) ); ?>"></a>
 					
 				</div><!-- /left-nav -->
 				
@@ -69,16 +69,5 @@
 			</div><!-- /.row -->
 			
 		</header>
-
-			<div class="row">
-
-				<div id="vcs-banner" class="medium-6 medium-centered columns" style="text-align:center;">
-
-						<a href="https://vtacreative.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vcs-banner.png"></a><br>
-						<a href="https://vtacreative.com"><small>Your local source for custom apparel, web design, sports jerseys, school spirit wear, uniforms, promotional goods, personalized gifts, novelty items, and more!</small></a>
-
-				</div>
-
-			</div><!-- /.row -->
 
 		</div><!--/.header-container-->
