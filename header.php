@@ -10,7 +10,7 @@
 	
 	<meta charset="utf-8">
 	
-	<title>That Ventura Brand | Ventura, California</title>
+	<title><?php printf( get_bloginfo ( 'description' ) ); ?></title>
 	
 	<meta name="description" content="Your company description">
 	
