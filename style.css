@@ -62,7 +62,7 @@ h1.woocommerce-products-header__title {
    Header & Footer
    ========================================================================== */
 	/* height from top of page to beginning of content */
-	#tvb-header {
+	#fp-header {
 		padding-bottom:100px;
 	}
 
@@ -83,14 +83,14 @@ h1.woocommerce-products-header__title {
 
 
 /* fixed navigation on all devices */
-div#tvb-nav {
+div#fp-nav {
 	position:fixed;
 	width:100%;
 	z-index:1000;
 }
 
 /* color of nav bar */
-div#tvb-nav, ul.menu {
+div#fp-nav, ul.menu {
 	background:#fff;
 	opacity:.95;
 }

@@ -50,9 +50,9 @@
 	
 	<div id="page" class="hfeed">
 		
-		<header id="tvb-header">
+		<header id="fp-header">
 			
-			<div id="tvb-nav" class="row nav-left full-width">
+			<div id="fp-nav" class="row nav-left full-width">
 				
 	      <div class="small-4 columns">
 		
