@@ -27,7 +27,7 @@
 
 				<p>
 
-					<a href="http://www.instagram.com/"><i class="social foundicon-instagram"></i></a>
+					<a target="_blank" href="<?php echo IG; ?>"><i class="social foundicon-instagram"></i></a>
 
 					<a class="scroll" href="#top"><i class="enclosed foundicon-up-arrow"></i></a>
 

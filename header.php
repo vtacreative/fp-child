@@ -56,7 +56,7 @@
 				
 	      <div class="small-4 columns">
 		
-					<a href="/" title="<?php echo bloginfo('description'); ?>"><img id="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tvb.svg" alt="<?php printf( get_bloginfo ( 'description' ) ); ?>"></a>
+					<a href="/" title="<?php echo bloginfo('description'); ?>"><img id="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/<?php echo COMPANY_SLUG; ?>-header-logo.png" alt="<?php printf( get_bloginfo ( 'description' ) ); ?>"></a>
 					
 				</div><!-- /left-nav -->
 				
