@@ -32,7 +32,6 @@ define('COMPANY_NAME', 						''								);
 define('STREET_ADDRESS',					''								);
 define('CITY',										''								);
 define('STATE',										''								);
-define('URL',											''								);
 define('IG',											'https://instagram.com/' . ''								);
 
 

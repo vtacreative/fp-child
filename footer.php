@@ -19,7 +19,7 @@
 
 			<div class="medium-6 large-6 columns footer-left">
 
-				<p>&copy;&nbsp;<?php echo date('Y') . ' ' . COMPANY_NAME; ?><br><a href="/privacy-policy">Privacy</a>&nbsp;|&nbsp;<a href="/contact-us">Contact</a></p>
+				<p>&copy;&nbsp;<?php echo date('Y') . ' ' . COMPANY_NAME; ?><br><a href="<?php echo get_site_url(); ?>/privacy-policy">Privacy</a>&nbsp;|&nbsp;<a href="<?php echo get_site_url(); ?>/contact-us">Contact</a></p>
 
 			</div>
 
