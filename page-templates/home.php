@@ -6,7 +6,7 @@ get_header(); ?>
 		
 		<br><br>
 		
-		<p>Available at select local businesses throughout Ventura.<br>Online Store Opening Soon!</p>
+		<p>Content Here</p>
 		
 	</div>
 	
