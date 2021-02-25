@@ -10,8 +10,6 @@
 	
 	<meta charset="utf-8">
 	
-	<?php wp_title( '|', true, 'right' ); ?>
-	
 	<meta name="description" content="Your company description">
 	
 	<meta name="viewport" content="width=device-width">
