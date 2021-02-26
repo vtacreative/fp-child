@@ -1,19 +1,20 @@
 /*
-Theme Name: found-press Child
+Theme Name: Found Press Child
+Theme URI: https://github.com/vtacreative/fp-child
 Description: A starter WordPress theme using Foundation 5.2
-Author: CL75
-Author URI: http://github.com/CL75/
+Author: Ventura Creative Services
+Author URI: https://github.com/vtacreative
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: responsive, fluid, mobile, mobile-friendly
+Tags: grid-layout
 Template:   found-press
-Text Domain: foundpresschild
+Text Domain: fp-child
 Tested up to: 5.4
 Requires PHP: 
 */
 
-/* TVB STYLE SHEET */
+/* FP-CHILD STYLE SHEET */
 
 @import url("../found-press/style.css");
 
